@@ -1,4 +1,4 @@
-# Jasmine Matchers Snippets
+# Jasmine Matchers ES6 Snippets
 
 Snippets to ease development with [Jasmine Matchers](https://github.com/JamieMason/Jasmine-Matchers).
 
@@ -15,28 +15,28 @@ Put an <kbd>n</kbd> at the beginning for `.not` cases;
 
 <kbd>a</kbd><kbd>f</kbd>
 ```javascript
-afterEach(function() {
+afterEach(() => {
 
 });
 ```
 
 <kbd>b</kbd><kbd>e</kbd>
 ```javascript
-beforeEach(function() {
+beforeEach(() => {
 
 });
 ```
 
 <kbd>d</kbd><kbd>e</kbd><kbd>s</kbd>
 ```javascript
-describe('when x', function() {
+describe('when x', () => {
 
 });
 ```
 
 <kbd>i</kbd><kbd>t</kbd>
 ```javascript
-it('should x', function() {
+it('should x', () => {
 
 });
 ```
