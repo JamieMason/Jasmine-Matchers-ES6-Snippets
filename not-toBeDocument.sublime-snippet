@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toBeDocument();
+expect(${1:object}).not.toBeDocument();
 ]]></content>
   <tabTrigger>ntbd</tabTrigger>
   <scope>source.js</scope>

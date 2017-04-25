@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toBeWindow();
+expect(${1:object}).not.toBeWindow();
 ]]></content>
   <tabTrigger>ntbw</tabTrigger>
   <scope>source.js</scope>

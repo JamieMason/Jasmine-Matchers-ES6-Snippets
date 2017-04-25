@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toBeFunction();
+expect(${1:object}).not.toBeFunction();
 ]]></content>
   <tabTrigger>ntbf</tabTrigger>
   <scope>source.js</scope>

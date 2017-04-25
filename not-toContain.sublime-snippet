@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:array or string}).toContain(${2:member or substring});
+expect(${1:array or string}).not.toContain(${2:member or substring});
 ]]></content>
   <tabTrigger>ntc</tabTrigger>
   <scope>source.js</scope>

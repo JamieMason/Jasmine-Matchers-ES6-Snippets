@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:date}).toBeBefore(${2:date});
+expect(${1:date}).not.toBeBefore(${2:date});
 ]]></content>
   <tabTrigger>ntbb</tabTrigger>
   <scope>source.js</scope>

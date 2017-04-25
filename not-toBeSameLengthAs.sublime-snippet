@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:string}).toBeSameLengthAs(${2:other});
+expect(${1:string}).not.toBeSameLengthAs(${2:other});
 ]]></content>
   <tabTrigger>ntbsla</tabTrigger>
   <scope>source.js</scope>
