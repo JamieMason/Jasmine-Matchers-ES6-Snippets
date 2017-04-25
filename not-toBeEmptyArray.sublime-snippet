@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:array}).toBeEmptyArray();
+expect(${1:array}).not.toBeEmptyArray();
 ]]></content>
   <tabTrigger>ntbea</tabTrigger>
   <scope>source.js</scope>

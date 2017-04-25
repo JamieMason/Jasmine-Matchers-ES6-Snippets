@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toImplement(${2:api});
+expect(${1:object}).not.toImplement(${2:api});
 ]]></content>
   <tabTrigger>nti</tabTrigger>
   <scope>source.js</scope>

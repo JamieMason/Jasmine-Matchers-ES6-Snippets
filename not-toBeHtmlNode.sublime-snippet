@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:element}).toBeHtmlNode();
+expect(${1:element}).not.toBeHtmlNode();
 ]]></content>
   <tabTrigger>ntbhn</tabTrigger>
   <scope>source.js</scope>

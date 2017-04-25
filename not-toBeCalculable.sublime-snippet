@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:numberOrString}).toBeCalculable();
+expect(${1:numberOrString}).not.toBeCalculable();
 ]]></content>
   <tabTrigger>ntbc</tabTrigger>
   <scope>source.js</scope>

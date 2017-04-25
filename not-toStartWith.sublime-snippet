@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-expect(${1:string}).toStartWith(${2:expected});
+expect(${1:string}).not.toStartWith(${2:expected});
 ]]></content>
   <tabTrigger>ntsw</tabTrigger>
   <scope>source.js</scope>
