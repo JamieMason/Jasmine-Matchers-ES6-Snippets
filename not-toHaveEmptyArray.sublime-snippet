@@ -1,3 +1,4 @@
+
 <snippet>
   <content><![CDATA[
 expect(${1:object}).not.toHaveEmptyArray(${2:memberName});
